@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,3 +17,18 @@ body{ background: linear-gradient(to right, #FFD700, #87CEEB, #FF69B4);
           background-position: 0% 50%;
         }
       }
+.details{
+  width: 600px;
+  height: 800px;
+  float: left;
+}
+.forcast{
+  width: 1300px;
+  height: 800px; 
+  float: right;
+}
+.Search{
+  position: absolute;
+  width: 500px;
+  height: 80px;
+}
